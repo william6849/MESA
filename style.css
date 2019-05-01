@@ -1,0 +1,6 @@
+
+#fileDisplayArea {
+  margin-top: 2em;
+  width: 100%;
+  overflow-x: auto;
+}

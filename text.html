@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<script type="text/javascript" src="text.js"></script>
+	<title>EXPOSURE</title>
+
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	
+	write_sequence    
+
+	<div>
+			<input type="button" id="butt" value="start">
+
+			Select a file: 
+			<input type="file" id="fileInput" accept=".seq">
+			aad:
+			<select name="aadsel" id="aadsel">
+¡@				<option value=8>8</option>
+¡@				<option value=16>16</option>
+¡@				<option value=32>32</option>
+			</select>
+
+
+			interlock:
+			<select name="interlocksel" id="interlocksel">
+¡@				<option value=1>1</option>
+¡@				<option value=2>2</option>
+¡@				<option value=4>4</option>
+			</select>
+		</div>
+	
+	<pre id="fileDisplayArea"></pre>
+
+	
+ 
+	<div style="position: relative;">
+		<canvas id="canvas_1" width="800" height="800" 
+		style="position: absolute; left: 60; top: 60; z-index: 0;"></canvas>
+		<canvas id="canvas_2" width="800" height="800" 
+		style="position: absolute; left: 60; top: 60; z-index: 1;"></canvas>
+	</div>
+
+
+
+
+
+</body>
+</html>
